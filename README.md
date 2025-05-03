@@ -1,4 +1,4 @@
-# landing-sim
+# Tethered UAV-UGV System
 
 ## STEPS
 
@@ -15,8 +15,8 @@ Follow the guide here https://developer.nvidia.com/nvidia-container-runtime
 ### Build docker image
 Clone this repository and build the docker image
 ```
-git clone git@github.com:8OL-Robotics/landing-sim.git
-cd landing-sim
+git clone https://github.com/Amann09/tether_uav_ugv_sim.git
+cd tether_uav_ugv_sim
 sudo bash build_image.sh
 ```
 
