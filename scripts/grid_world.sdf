@@ -1,0 +1,4341 @@
+<sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1">
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 <sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1">
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1">
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1">
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1">
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1">
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1"><sdf version="1.6">
+	<model name="grid_world">
+		<link name="grid_cell_0_0">
+			<pose>-1.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_1">
+			<pose>-1.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_2">
+			<pose>-1.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_3">
+			<pose>-1.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_4">
+			<pose>-1.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_5">
+			<pose>-1.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_6">
+			<pose>-1.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_7">
+			<pose>-1.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_8">
+			<pose>-1.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_0_9">
+			<pose>-1.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_0">
+			<pose>-0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_1">
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>-0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_2">
+			<pose>-0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_3">
+			<pose>-0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_4">
+			<pose>-0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_5">
+			<pose>-0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_6">
+			<pose>-0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_7">
+			<pose>-0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_8">
+			<pose>-0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_1_9">
+			<pose>-0.8 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_0">
+			<pose>-0.6 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_1">
+			<pose>-0.6 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_2">
+			<pose>-0.6 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_3">
+			<pose>-0.6 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_4">
+			<pose>-0.6 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_5">
+			<pose>-0.6 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_6">
+			<pose>-0.6 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_7">
+			<pose>-0.6 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_8">
+			<pose>-0.6 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_2_9">
+			<pose>-0.6 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_0">
+			<pose>-0.3999999999999999 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_1">
+			<pose>-0.3999999999999999 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_2">
+			<pose>-0.3999999999999999 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_3">
+			<pose>-0.3999999999999999 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_4">
+			<pose>-0.3999999999999999 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_5">
+			<pose>-0.3999999999999999 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_6">
+			<pose>-0.3999999999999999 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_7">
+			<pose>-0.3999999999999999 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_8">
+			<pose>-0.3999999999999999 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_3_9">
+			<pose>-0.3999999999999999 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_0">
+			<pose>-0.19999999999999996 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_1">
+			<pose>-0.19999999999999996 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_2">
+			<pose>-0.19999999999999996 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_3">
+			<pose>-0.19999999999999996 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_4">
+			<pose>-0.19999999999999996 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_5">
+			<pose>-0.19999999999999996 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_6">
+			<pose>-0.19999999999999996 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_7">
+			<pose>-0.19999999999999996 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_8">
+			<pose>-0.19999999999999996 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_4_9">
+			<pose>-0.19999999999999996 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_0">
+			<pose>0.0 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_1">
+			<pose>0.0 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_2">
+			<pose>0.0 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_3">
+			<pose>0.0 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_4">
+			<pose>0.0 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_5">
+			<pose>0.0 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_6">
+			<pose>0.0 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_7">
+			<pose>0.0 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_8">
+			<pose>0.0 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_5_9">
+			<pose>0.0 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_0">
+			<pose>0.20000000000000018 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_1">
+			<pose>0.20000000000000018 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_2">
+			<pose>0.20000000000000018 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_3">
+			<pose>0.20000000000000018 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_4">
+			<pose>0.20000000000000018 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_5">
+			<pose>0.20000000000000018 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_6">
+			<pose>0.20000000000000018 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_7">
+			<pose>0.20000000000000018 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_8">
+			<pose>0.20000000000000018 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_6_9">
+			<pose>0.20000000000000018 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_0">
+			<pose>0.40000000000000013 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_1">
+			<pose>0.40000000000000013 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_2">
+			<pose>0.40000000000000013 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_3">
+			<pose>0.40000000000000013 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_4">
+			<pose>0.40000000000000013 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_5">
+			<pose>0.40000000000000013 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_6">
+			<pose>0.40000000000000013 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_7">
+			<pose>0.40000000000000013 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_8">
+			<pose>0.40000000000000013 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_7_9">
+			<pose>0.40000000000000013 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_0">
+			<pose>0.6000000000000001 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_1">
+			<pose>0.6000000000000001 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_2">
+			<pose>0.6000000000000001 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_3">
+			<pose>0.6000000000000001 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_4">
+			<pose>0.6000000000000001 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_5">
+			<pose>0.6000000000000001 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_6">
+			<pose>0.6000000000000001 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_7">
+			<pose>0.6000000000000001 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_8">
+			<pose>0.6000000000000001 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_8_9">
+			<pose>0.6000000000000001 0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_0">
+			<pose>0.8 -1.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_1">
+			<pose>0.8 -0.8 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_2">
+			<pose>0.8 -0.6 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_3">
+			<pose>0.8 -0.3999999999999999 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_4">
+			<pose>0.8 -0.19999999999999996 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_5">
+			<pose>0.8 0.0 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_6">
+			<pose>0.8 0.20000000000000018 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_7">
+			<pose>0.8 0.40000000000000013 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_8">
+			<pose>0.8 0.6000000000000001 0 0 0 0</pose>
+		</link>
+		<link name="grid_cell_9_9">
+			<pose>0.8 0.8 0 0 0 0</pose>
+		</link>
+	</model>
+	<spherical_coordinates>
+		<surface_model>plane</surface_model>
+		<world_frame_orientation>ENU</world_frame_orientation>
+		<latitude_deg>0</latitude_deg>
+		<longitude_deg>0</longitude_deg>
+		<elevation>0</elevation>
+	</spherical_coordinates>
+</sdf>

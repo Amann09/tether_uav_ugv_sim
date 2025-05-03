@@ -1,0 +1,1 @@
+rocker --nvidia --x11 --user --home --pull --pulse --devices --network host $USER/landing_sim 

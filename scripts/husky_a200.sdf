@@ -1,0 +1,932 @@
+<sdf version='1.10'>
+  <model name='a200-0000'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0.0069082982974649331 -0.081466727377522655 0.076450466568731903 0 0 0</pose>
+        <mass>48.045999999999999</mass>
+        <inertia>
+          <ixx>0.88869998262536576</ixx>
+          <ixy>-0.053210136864957763</ixy>
+          <ixz>-0.19675416155599579</ixz>
+          <iyy>2.1242873460244991</iyy>
+          <iyz>-0.057621626917367268</iyz>
+          <izz>2.1665507674053042</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0.061874999999999999 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.98740000000000006 0.57089999999999996 0.12375</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_1'>
+        <pose>0 0 0.175625 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.78992000000000007 0.57089999999999996 0.10375</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__sensor_arch_link_collision_2'>
+        <pose>0 0 0.52400000000000002 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/attachments/300_mm_sensor_arch.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__fath_pivot_0_link_collision_3'>
+        <pose>0 -1.389803844907354e-06 0.48800000006438521 3.1415000000000002 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.025000000000000001 0.025000000000000001 0.029999999999999999</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__fath_pivot_0_link_collision_4'>
+        <pose>0 0.034997915144000621 0.48049675722093971 -1.5708889803846899 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__fath_pivot_0_hinge_link_collision_5'>
+        <pose>0 -3.474509612268385e-06 0.46550000016096288 3.1415000000000002 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.025000000000000001 0.025000000000000001 0.029999999999999999</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__camera_0_link_collision_6'>
+        <pose>0.0106 -5.3275814054781897e-06 0.4455000002468098 3.1415000000000002 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.025049999999999999 0.089999999999999997 0.025000000000000001</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__lidar3d_0_link_collision_7'>
+        <pose>0 0 0.55984999999999996 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.0717</length>
+            <radius>0.0516</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__top_plate_link_collision_8'>
+        <pose>0.048250000000000001 0 0.22717499999999999 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.67000000000000004 0.58999999999999997 0.0063499999999999997</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__bracket_0_link_collision_9'>
+        <pose>0.32824999999999999 0 0.2354125 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.089999999999999997 0.089999999999999997 0.010125</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/base_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__sensor_arch_link_visual_1'>
+        <pose>0 0 0.52400000000000002 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/attachments/300_mm_sensor_arch.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__fath_pivot_0_link_visual_2'>
+        <pose>0 0 0.503 3.1415926535897931 -9.265358979305727e-05 -1.5707963267948957</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_mounts_description/meshes/fath_pivot_mount_base.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__fath_pivot_0_hinge_link_visual_3'>
+        <pose>0 -2.08470576736103e-06 0.48050000009657767 3.1415926535897931 -9.265358979305727e-05 -1.5707963267948957</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_mounts_description/meshes/fath_pivot_mount.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__camera_0_link_visual_4'>
+        <pose>0.0149 -5.3275814054781897e-06 0.4455000002468098 -1.570796326794897 -9.2653589792996718e-05 -1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://realsense2_description/meshes/d435.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__lidar3d_0_link_visual_5'>
+        <pose>0 0 0.52400000000000002 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://velodyne_description/meshes/VLP16_base_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__lidar3d_0_link_visual_6'>
+        <pose>0 0 0.52400000000000002 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://velodyne_description/meshes/VLP16_base_2.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__lidar3d_0_laser_visual_7'>
+        <pose>0 0 0.52400000000000002 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://velodyne_description/meshes/VLP16_scan.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__top_plate_link_visual_8'>
+        <pose>0.048250000000000001 0 0.224 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/attachments/pacs_top_plate.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+          <ambient>0.25 0.25 0.25 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__bracket_0_link_visual_9'>
+        <pose>0.32824999999999999 0 0.24047499999999999 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_mounts_description/meshes/pacs/bracket_horizontal.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+          <ambient>0.25 0.25 0.25 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__lidar2d_0_link_visual_10'>
+        <pose>0.32824999999999999 0 0.24047499999999999 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_sensors_description/meshes/hokuyo_ust.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+          <ambient>0.25 0.25 0.25 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__user_bay_cover_link_visual_11'>
+        <pose>0.048250000000000001 0 0.23135 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.40000000000000002 0.40000000000000002 0.002</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>0.25 0.25 0.25 1</diffuse>
+          <ambient>0.25 0.25 0.25 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__front_bumper_link_visual_12'>
+        <pose>0.48099999999999998 0 0.090999999999999998 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/attachments/bumper.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__rear_bumper_link_visual_13'>
+        <pose>-0.48099999999973603 1.9901923450145469e-07 0.090999999999999998 0 0 3.1415899999999999</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/attachments/bumper.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__top_chassis_link_visual_14'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/top_chassis.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <sensor name='camera_0' type='rgbd_camera'>
+        <camera>
+          <horizontal_fov>1.25</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+          </image>
+          <clip>
+            <near>0.29999999999999999</near>
+            <far>100</far>
+          </clip>
+          <optical_frame_id>camera_0_color_optical_frame</optical_frame_id>
+          <ignition_frame_id>camera_0_link</ignition_frame_id>
+        </camera>
+        <always_on>true</always_on>
+        <update_rate>30</update_rate>
+        <visualize>true</visualize>
+        <topic>/sensors/camera_0</topic>
+        <pose>0.0106 -0.017505300000000001 0.44550200000000001 3.1415000000000002 0 0</pose>
+        <ignition_frame_id>camera_0_link</ignition_frame_id>
+      </sensor>
+      <sensor name='lidar3d_0' type='gpu_lidar'>
+        <update_rate>50</update_rate>
+        <visualize>true</visualize>
+        <always_on>true</always_on>
+        <topic>/sensors/lidar3d_0/scan</topic>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>900</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.1415920000000002</min_angle>
+              <max_angle>3.1415920000000002</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>15</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.261799</min_angle>
+              <max_angle>0.261799</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.90000000000000002</min>
+            <max>130</max>
+            <resolution>0.01</resolution>
+          </range>
+        </lidar>
+        <pose>0 0 0.56169999999999998 0 0 0</pose>
+        <ignition_frame_id>lidar3d_0_laser</ignition_frame_id>
+      </sensor>
+      <sensor name='lidar2d_0' type='gpu_lidar'>
+        <update_rate>50</update_rate>
+        <visualize>true</visualize>
+        <always_on>true</always_on>
+        <topic>/sensors/lidar2d_0/scan</topic>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>540</samples>
+              <resolution>1</resolution>
+              <min_angle>-2.3559999999999999</min_angle>
+              <max_angle>2.3559999999999999</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>1</samples>
+              <resolution>1</resolution>
+              <min_angle>0</min_angle>
+              <max_angle>0</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.050000000000000003</min>
+            <max>25</max>
+            <resolution>0.01</resolution>
+          </range>
+        </lidar>
+        <pose>0.32824999999999999 0 0.28787499999999999 0 0 0</pose>
+        <ignition_frame_id>lidar2d_0_laser</ignition_frame_id>
+      </sensor>
+    </link>
+    <joint name='front_left_wheel_joint' type='revolute'>
+      <pose relative_to='base_link'>0.25600000000000001 0.27750000000000002 0.032820000000000002 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>front_left_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='front_left_wheel'>
+      <pose relative_to='front_left_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>2.637</mass>
+        <inertia>
+          <ixx>0.024670000000000001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.044110000000000003</iyy>
+          <iyz>0</iyz>
+          <izz>0.024670000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='front_left_wheel_collision'>
+        <pose>0 0 0 1.5707949999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1143</length>
+            <radius>0.1651</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='front_left_wheel_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='front_right_wheel_joint' type='revolute'>
+      <pose relative_to='base_link'>0.25600000000000001 -0.27750000000000002 0.032820000000000002 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>front_right_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='front_right_wheel'>
+      <pose relative_to='front_right_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>2.637</mass>
+        <inertia>
+          <ixx>0.024670000000000001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.044110000000000003</iyy>
+          <iyz>0</iyz>
+          <izz>0.024670000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='front_right_wheel_collision'>
+        <pose>0 0 0 1.5707949999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1143</length>
+            <radius>0.1651</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='front_right_wheel_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='rear_left_wheel_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.25600000000000001 0.27750000000000002 0.032820000000000002 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>rear_left_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='rear_left_wheel'>
+      <pose relative_to='rear_left_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>2.637</mass>
+        <inertia>
+          <ixx>0.024670000000000001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.044110000000000003</iyy>
+          <iyz>0</iyz>
+          <izz>0.024670000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='rear_left_wheel_collision'>
+        <pose>0 0 0 1.5707949999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1143</length>
+            <radius>0.1651</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='rear_left_wheel_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='rear_right_wheel_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.25600000000000001 -0.27750000000000002 0.032820000000000002 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>rear_right_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='rear_right_wheel'>
+      <pose relative_to='rear_right_wheel_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>2.637</mass>
+        <inertia>
+          <ixx>0.024670000000000001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.044110000000000003</iyy>
+          <iyz>0</iyz>
+          <izz>0.024670000000000001</izz>
+        </inertia>
+      </inertial>
+      <collision name='rear_right_wheel_collision'>
+        <pose>0 0 0 1.5707949999999999 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1143</length>
+            <radius>0.1651</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='rear_right_wheel_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://clearpath_platform_description/meshes/a200/wheel.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <plugin name='ignition::gazebo::systems::WheelSlip' filename='libignition-gazebo-wheel-slip-system.so'>
+      <wheel link_name='front_left_wheel'>
+        <slip_compliance_lateral>1.0</slip_compliance_lateral>
+        <slip_compliance_longitudinal>1.0</slip_compliance_longitudinal>
+        <wheel_normal_force>113</wheel_normal_force>
+        <wheel_radius>0.1651</wheel_radius>
+      </wheel>
+      <wheel link_name='front_right_wheel'>
+        <slip_compliance_lateral>1.0</slip_compliance_lateral>
+        <slip_compliance_longitudinal>1.0</slip_compliance_longitudinal>
+        <wheel_normal_force>113</wheel_normal_force>
+        <wheel_radius>0.1651</wheel_radius>
+      </wheel>
+      <wheel link_name='rear_left_wheel'>
+        <slip_compliance_lateral>1.0</slip_compliance_lateral>
+        <slip_compliance_longitudinal>1.0</slip_compliance_longitudinal>
+        <wheel_normal_force>113</wheel_normal_force>
+        <wheel_radius>0.1651</wheel_radius>
+      </wheel>
+      <wheel link_name='rear_right_wheel'>
+        <slip_compliance_lateral>1.0</slip_compliance_lateral>
+        <slip_compliance_longitudinal>1.0</slip_compliance_longitudinal>
+        <wheel_normal_force>113</wheel_normal_force>
+        <wheel_radius>0.1651</wheel_radius>
+      </wheel>
+    </plugin>
+    <frame name='base_footprint_joint' attached_to='base_link'>
+      <pose>0 0 -0.13228000000000001 0 0 0</pose>
+    </frame>
+    <frame name='base_footprint' attached_to='base_footprint_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='camera_0_link_joint' attached_to='camera_0_bottom_screw_frame'>
+      <pose>0.0106 0.017500000000000002 0.012500000000000001 0 0 0</pose>
+    </frame>
+    <frame name='camera_0_link' attached_to='camera_0_link_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='camera_0_joint' attached_to='fath_pivot_0_mount'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='camera_0_bottom_screw_frame' attached_to='camera_0_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='fath_pivot_0_mount_joint' attached_to='fath_pivot_0_hinge_link'>
+      <pose>0 0 0.022499999999999999 0 0 0</pose>
+    </frame>
+    <frame name='fath_pivot_0_mount' attached_to='fath_pivot_0_mount_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='fath_pivot_0_hinge_joint' attached_to='fath_pivot_0_link'>
+      <pose>0 0 0.022499999999999999 0 0 0</pose>
+    </frame>
+    <frame name='fath_pivot_0_hinge_link' attached_to='fath_pivot_0_hinge_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='fath_pivot_0_joint' attached_to='sensor_arch_mount'>
+      <pose>0 0 -0.021000000000000001 3.1415000000000002 0 0</pose>
+    </frame>
+    <frame name='fath_pivot_0_link' attached_to='fath_pivot_0_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar3d_0_laser_joint' attached_to='lidar3d_0_link'>
+      <pose>0 0 0.037699999999999997 0 0 0</pose>
+    </frame>
+    <frame name='lidar3d_0_laser' attached_to='lidar3d_0_laser_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar3d_0_joint' attached_to='sensor_arch_mount'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar3d_0_link' attached_to='lidar3d_0_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='sensor_arch_mount_joint' attached_to='sensor_arch_link'>
+      <pose>0 0 0.29999999999999999 0 0 0</pose>
+    </frame>
+    <frame name='sensor_arch_mount' attached_to='sensor_arch_mount_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='sensor_arch_joint' attached_to='default_mount'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='sensor_arch_link' attached_to='sensor_arch_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a1_joint' attached_to='top_plate_link'>
+      <pose>0.28000000000000003 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a1' attached_to='top_plate_mount_a1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a2_joint' attached_to='top_plate_link'>
+      <pose>0.20000000000000001 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a2' attached_to='top_plate_mount_a2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a3_joint' attached_to='top_plate_link'>
+      <pose>0.12 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a3' attached_to='top_plate_mount_a3_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a4_joint' attached_to='top_plate_link'>
+      <pose>0.039999999999999987 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a4' attached_to='top_plate_mount_a4_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a5_joint' attached_to='top_plate_link'>
+      <pose>-0.040000000000000008 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a5' attached_to='top_plate_mount_a5_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a6_joint' attached_to='top_plate_link'>
+      <pose>-0.12 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a6' attached_to='top_plate_mount_a6_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a7_joint' attached_to='top_plate_link'>
+      <pose>-0.20000000000000001 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a7' attached_to='top_plate_mount_a7_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a8_joint' attached_to='top_plate_link'>
+      <pose>-0.28000000000000003 0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_a8' attached_to='top_plate_mount_a8_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b1_joint' attached_to='top_plate_link'>
+      <pose>0.28000000000000003 0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b1' attached_to='top_plate_mount_b1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b2_joint' attached_to='top_plate_link'>
+      <pose>0.20000000000000001 0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b2' attached_to='top_plate_mount_b2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b7_joint' attached_to='top_plate_link'>
+      <pose>-0.20000000000000001 0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b7' attached_to='top_plate_mount_b7_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b8_joint' attached_to='top_plate_link'>
+      <pose>-0.28000000000000003 0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_b8' attached_to='top_plate_mount_b8_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c1_joint' attached_to='top_plate_link'>
+      <pose>0.28000000000000003 0.079999999999999988 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c1' attached_to='top_plate_mount_c1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c2_joint' attached_to='top_plate_link'>
+      <pose>0.20000000000000001 0.079999999999999988 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c2' attached_to='top_plate_mount_c2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c7_joint' attached_to='top_plate_link'>
+      <pose>-0.20000000000000001 0.079999999999999988 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c7' attached_to='top_plate_mount_c7_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c8_joint' attached_to='top_plate_link'>
+      <pose>-0.28000000000000003 0.079999999999999988 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_c8' attached_to='top_plate_mount_c8_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar2d_0_laser_joint' attached_to='lidar2d_0_link'>
+      <pose>0 0 0.047399999999999998 0 0 0</pose>
+    </frame>
+    <frame name='lidar2d_0_laser' attached_to='lidar2d_0_laser_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar2d_0_joint' attached_to='bracket_0_mount'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar2d_0_link' attached_to='lidar2d_0_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='bracket_0_mount_joint' attached_to='bracket_0_link'>
+      <pose>0 0 0.010125 0 0 0</pose>
+    </frame>
+    <frame name='bracket_0_mount' attached_to='bracket_0_mount_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='bracket_0_joint' attached_to='top_plate_mount_d1'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='bracket_0_link' attached_to='bracket_0_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d1_joint' attached_to='top_plate_link'>
+      <pose>0.28000000000000003 0 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d1' attached_to='top_plate_mount_d1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d2_joint' attached_to='top_plate_link'>
+      <pose>0.20000000000000001 0 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d2' attached_to='top_plate_mount_d2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d7_joint' attached_to='top_plate_link'>
+      <pose>-0.20000000000000001 0 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d7' attached_to='top_plate_mount_d7_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d8_joint' attached_to='top_plate_link'>
+      <pose>-0.28000000000000003 0 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_d8' attached_to='top_plate_mount_d8_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e1_joint' attached_to='top_plate_link'>
+      <pose>0.28000000000000003 -0.080000000000000016 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e1' attached_to='top_plate_mount_e1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e2_joint' attached_to='top_plate_link'>
+      <pose>0.20000000000000001 -0.080000000000000016 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e2' attached_to='top_plate_mount_e2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e7_joint' attached_to='top_plate_link'>
+      <pose>-0.20000000000000001 -0.080000000000000016 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e7' attached_to='top_plate_mount_e7_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e8_joint' attached_to='top_plate_link'>
+      <pose>-0.28000000000000003 -0.080000000000000016 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_e8' attached_to='top_plate_mount_e8_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f1_joint' attached_to='top_plate_link'>
+      <pose>0.28000000000000003 -0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f1' attached_to='top_plate_mount_f1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f2_joint' attached_to='top_plate_link'>
+      <pose>0.20000000000000001 -0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f2' attached_to='top_plate_mount_f2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f7_joint' attached_to='top_plate_link'>
+      <pose>-0.20000000000000001 -0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f7' attached_to='top_plate_mount_f7_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f8_joint' attached_to='top_plate_link'>
+      <pose>-0.28000000000000003 -0.16 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_f8' attached_to='top_plate_mount_f8_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g1_joint' attached_to='top_plate_link'>
+      <pose>0.28000000000000003 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g1' attached_to='top_plate_mount_g1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g2_joint' attached_to='top_plate_link'>
+      <pose>0.20000000000000001 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g2' attached_to='top_plate_mount_g2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g3_joint' attached_to='top_plate_link'>
+      <pose>0.12 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g3' attached_to='top_plate_mount_g3_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g4_joint' attached_to='top_plate_link'>
+      <pose>0.039999999999999987 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g4' attached_to='top_plate_mount_g4_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g5_joint' attached_to='top_plate_link'>
+      <pose>-0.040000000000000008 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g5' attached_to='top_plate_mount_g5_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g6_joint' attached_to='top_plate_link'>
+      <pose>-0.12 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g6' attached_to='top_plate_mount_g6_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g7_joint' attached_to='top_plate_link'>
+      <pose>-0.20000000000000001 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g7' attached_to='top_plate_mount_g7_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g8_joint' attached_to='top_plate_link'>
+      <pose>-0.28000000000000003 -0.23999999999999999 0.0063499999999999997 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_mount_g8' attached_to='top_plate_mount_g8_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='user_bay_cover_joint' attached_to='top_plate_link'>
+      <pose>0 0 0.0073499999999999998 0 0 0</pose>
+    </frame>
+    <frame name='user_bay_cover_link' attached_to='user_bay_cover_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_joint' attached_to='top_plate_adjust_link'>
+      <pose>0.048250000000000001 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_link' attached_to='top_plate_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_adjust_joint' attached_to='default_mount'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_plate_adjust_link' attached_to='top_plate_adjust_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='default_mount_joint' attached_to='base_link'>
+      <pose>0 0 0.224 0 0 0</pose>
+    </frame>
+    <frame name='default_mount' attached_to='default_mount_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='front_bumper_joint' attached_to='front_bumper_base_link'>
+      <pose>0.074999999999999997 0 0 0 0 0</pose>
+    </frame>
+    <frame name='front_bumper_link' attached_to='front_bumper_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='front_bumper_base_joint' attached_to='front_bumper_mount'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='front_bumper_base_link' attached_to='front_bumper_base_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='front_bumper_mount_joint' attached_to='base_link'>
+      <pose>0.40600000000000003 0 0.090999999999999998 0 0 0</pose>
+    </frame>
+    <frame name='front_bumper_mount' attached_to='front_bumper_mount_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='inertial_joint' attached_to='base_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='inertial_link' attached_to='inertial_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='rear_bumper_joint' attached_to='rear_bumper_base_link'>
+      <pose>0.074999999999999997 0 0 0 0 0</pose>
+    </frame>
+    <frame name='rear_bumper_link' attached_to='rear_bumper_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='rear_bumper_base_joint' attached_to='rear_bumper_mount'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='rear_bumper_base_link' attached_to='rear_bumper_base_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='rear_bumper_mount_joint' attached_to='base_link'>
+      <pose>-0.40600000000000003 0 0.090999999999999998 0 0 3.1415899999999999</pose>
+    </frame>
+    <frame name='rear_bumper_mount' attached_to='rear_bumper_mount_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_chassis_joint' attached_to='base_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='top_chassis_link' attached_to='top_chassis_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>

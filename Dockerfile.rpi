@@ -1,0 +1,63 @@
+# Use ROS perception image compatible with Raspberry Pi
+FROM arm64v8/ros:humble-perception
+
+# Set environment variables
+ENV LANG C.UTF-8
+
+# Suppress interactive frontend during build
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+
+# Install necessary packages
+RUN apt-get update && apt-get install -y \
+    locales \
+    curl \
+    software-properties-common \
+    python3-venv \
+    git \
+    cmake \
+    build-essential \
+    python3-pip \
+    libopencv-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Add ROS and Gazebo keys and repositories
+RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | tee /etc/apt/sources.list.d/ros2.list > /dev/null
+
+# Update and upgrade packages
+RUN apt-get update && apt-get upgrade -y
+
+# Set up locales
+RUN locale-gen en_US en_US.UTF-8
+RUN update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+ENV LANG en_US.UTF-8
+
+# Source ROS 2 setup.bash in .bashrc
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
+# Install additional Python packages
+RUN pip3 install --user -U empy pyros-genmsg setuptools mavsdk aioconsole pygame numpy opencv-contrib-python picamera2
+
+# Clone Micro XRCE-DDS Agent and build it (if necessary for your application)
+WORKDIR /root
+RUN git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+WORKDIR /root/Micro-XRCE-DDS-Agent/build
+RUN cmake ..
+RUN make
+RUN make install
+RUN ldconfig /usr/local/lib/
+
+# Clone and build ROS 2 workspaces (modify these as needed for your application)
+WORKDIR /root
+RUN mkdir -p ~/ros2_ws/src/
+# Add your specific ROS 2 packages here
+RUN /bin/bash -c "cd /root/ros2_ws && rosdep install -r --from-paths src -i -y --rosdistro humble"
+RUN /bin/bash -c "source /opt/ros/humble/setup.bash && cd ~/ros2_ws/ && colcon build --symlink-install"
+RUN echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+
+# Add any additional customizations or copies here
+
+# Set the entrypoint (adjust or remove as necessary)
+COPY entrypoint_rpi.sh /root/entrypoint_rpi.sh
+RUN chmod +x /root/entrypoint_rpi.sh
+ENTRYPOINT ["/root/entrypoint_rpi.sh"]
