@@ -11,4 +11,4 @@ sudo docker run -it -e DISPLAY=$DISPLAY \
     --gpus all \
     --privileged \
     --net=host \
-     $USER/landing_sim
+     $USER/tether_uav_ugv_sim

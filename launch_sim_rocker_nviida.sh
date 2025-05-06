@@ -1,1 +1,1 @@
-rocker --nvidia --x11 --user --home --pull --pulse --devices --network host $USER/landing_sim 
+rocker --nvidia --x11 --user --home --pull --pulse --devices --network host $USER/tether_uav_ugv_sim 

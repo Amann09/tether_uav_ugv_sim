@@ -7,4 +7,5 @@ sudo docker run -it    -e DISPLAY=$DISPLAY \
     --env="XAUTHORITY=$XAUTH" \
     --volume="$XAUTH:$XAUTH" \
     --privileged \
-     $USER/landing_sim  
+     $USER/tether_uav_ugv_sim
+     
